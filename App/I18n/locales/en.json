@@ -2,5 +2,18 @@
   "HomeScreenAddCityModalAddCityText": "Add City",
   "HomeScreenAddCityModalCloseText": "Close",
   "HomeScreenAddCityModalTextInputPlaceHolder": "Search Stock",
-  "HomeScreenHeaderText": "Cities"
+  "HomeScreenHeaderText": "Cities",
+  "CityWeatherDetailsDescription": "Description",
+  "CityWeatherDetailsTemperature": "Temperature",
+  "CityWeatherDetailsHumidity": "Humidity",
+  "CityWeatherDetailsWindSpeed": "Windspeed",
+  "HomeScreenNoCitiesMessage": "No available cities, please add cities",
+  "CityWeatherHistoryNoDataMessage": "No available data",
+  "HomeScreenAddCityModalEmptyTextinputErrorMessage": "Can not add a city with an empty name",
+  "CityWeatherHistoryHeader": "historical",
+  "HomeScreenItemDeleteText": "Delete",
+  "HomeScreenADeleteCityModalDeleteCityText": "Delete City",
+  "HomeScreenDeleteCityModalDeleteCityMessage": "Are you sure?",
+  "HomeScreenAddCityModalCityExistErrorMessage": "The city is already exists",
+  "CityWeatherDetailsNoDataAvailableMessage": "There is not available data for this city"
 }
