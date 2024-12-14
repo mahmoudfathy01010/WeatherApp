@@ -16,7 +16,7 @@ const AddCityBody = ({onAddCity, onClose}: AddCityBodyProps) => {
   const saveCityName = async () => {
     if (cityName) {
       const cities = (await Storage.getObject(CITIES)) as City[];
-      const isCityExist = cities.some(
+      const isCityExist = cities?.some(
         item => item.cityName?.toLowerCase() === cityName.toLowerCase(),
       );
 
