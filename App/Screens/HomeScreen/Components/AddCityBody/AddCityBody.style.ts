@@ -5,8 +5,9 @@ const styles = StyleSheet.create({
   container: {
     padding: 30,
     backgroundColor: Colors.white,
-    height: 200,
+    height: 300,
     gap: 8,
+    justifyContent: 'space-between',
   },
   cityTextInput: {
     flex: 1,
@@ -21,7 +22,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     gap: 8,
   },
-  actionsContainer: {flexDirection: 'row', justifyContent: 'center', gap: 20},
+  actionsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    gap: 20,
+  },
   buttonContainer: {
     flexDirection: 'row',
     justifyContent: 'center',
@@ -44,7 +49,7 @@ const styles = StyleSheet.create({
   AddCityButton: {
     paddingHorizontal: 24,
     height: 48,
-    backgroundColor: '#2388C7',
+    backgroundColor: Colors.blue,
     borderRadius: 56,
     flexDirection: 'row',
     gap: 8,
@@ -58,6 +63,7 @@ const styles = StyleSheet.create({
     color: Colors.white,
     fontSize: 16,
   },
+  errorMessage: {textAlign: 'center', color: Colors.red},
 });
 
 export default styles;
