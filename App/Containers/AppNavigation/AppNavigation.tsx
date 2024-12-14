@@ -7,7 +7,6 @@ import {
 } from '@react-navigation/native';
 import Routes from './Routes';
 import HomeScreen from 'App/Screens/HomeScreen/HomeScreen';
-import SplashScreen from 'App/Screens/SplashScreen/SplashScreen';
 import CityWeatherDetails from 'App/Screens/CityWeatherDetails/CityWeatherDetails';
 import CityWeatherHistory from 'App/Screens/CityWeatherHistory/CityWeatherHistory';
 const Stack = createStackNavigator();
@@ -23,9 +22,6 @@ const AppNavigation: React.FC = () => {
       <Stack.Navigator screenOptions={{headerShown: false, animation: 'none'}}>
         <Stack.Screen name={Routes.HomeScreen}>
           {() => <HomeScreen />}
-        </Stack.Screen>
-        <Stack.Screen name={Routes.SplashScreen}>
-          {() => <SplashScreen />}
         </Stack.Screen>
         <Stack.Screen name={Routes.CityWeatherDetails}>
           {props => <CityWeatherDetails {...props} />}
