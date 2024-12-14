@@ -7,17 +7,25 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     marginHorizontal: 16,
     paddingVertical: 17,
+    alignItems: 'center',
+    gap: 32,
   },
-  icon: {
+  infoIcon: {
     width: 24,
     height: 24,
+    flexShrink: 0,
+  },
+  cityIcon: {
+    width: 24,
+    height: 24,
+    flexShrink: 0,
   },
   text: {
-    marginStart: 32,
     fontWeight: '900',
     fontSize: 14,
     fontFamily: Fonts.ROBOTO_REGULAR,
-    flexGrow: 1,
+    flex: 1,
+    flexShrink: 1,
   },
 });
 
