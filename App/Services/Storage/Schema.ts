@@ -3,7 +3,7 @@ const StorageSchema = {
   primaryKey: 'key',
   properties: {
     key: 'string',
-    value: 'string'
-  }
-}
-export { StorageSchema }
+    value: 'string',
+  },
+};
+export {StorageSchema};
