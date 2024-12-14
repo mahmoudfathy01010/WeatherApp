@@ -1,5 +1,5 @@
 import Images from 'App/Themes/Images/Images';
-import {Image, ImageBackground, View} from 'react-native';
+import {ImageBackground} from 'react-native';
 import styles from './Background.style';
 
 const Background = () => {
