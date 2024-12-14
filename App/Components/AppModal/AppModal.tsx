@@ -2,9 +2,10 @@ import Modal from 'react-native-modal';
 import styles from './AppModal.style';
 import {AppModalProps} from './AppModal.d';
 
-const AppModal = ({isVisible, children}: AppModalProps) => {
+const AppModal = ({isVisible, children, testID}: AppModalProps) => {
   return (
     <Modal
+      testID={testID}
       isVisible={isVisible}
       animationIn="slideInUp"
       backdropTransitionInTiming={650}
